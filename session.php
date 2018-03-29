@@ -1,6 +1,5 @@
 <?php
 include 'connection.php';
-echo "10" . "\n";
 session_start();// Starting Session
 // Storing Session
 $user_check=$_SESSION['login_user'];
