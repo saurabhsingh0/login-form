@@ -1,5 +1,4 @@
 <?php
-echo "9" ."\n";
 include('session.php');
 ?>
 <!DOCTYPE html>
