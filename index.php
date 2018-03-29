@@ -1,9 +1,6 @@
 <?php
-echo "1";
 include('login.php'); // Includes Login Script
-
 if(isset($_SESSION['login_user'])){
-	echo "2";
 header("location: profile.php");
 }
 ?>
